@@ -44,8 +44,9 @@ int main()
         }
 
     printf("\n\tDistance(total seek time) : %d\n",distances);
-
-
-    return 0*printf("\n\tSUCCESSFUL\n");
+    
+    printf("\n\tSUCCESSFULLY RUN \n");
+    
+    return 0;
 
 }
