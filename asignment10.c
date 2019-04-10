@@ -26,7 +26,9 @@ int main()
     int last = CURR_REQUEST;
 
 
+    
     for(a=0;a<(sizeof(queues)/sizeof(queues[0]));a++)
+        
 
         {
 
