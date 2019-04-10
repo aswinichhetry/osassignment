@@ -9,7 +9,7 @@ int main()
 	printf("\nfix priority in lvl 1 and round robin lvl2\n");
 
 	int limit, count, temp_process, time, j, y,a=0,o,b,k,z=0,s,e,i,T=0,B_Sum=0;
-	int flag=0;
+	int flag=0;	
         process_structure temp;
 	printf("Enter the number of process:");
 	scanf("%d",&limit);
@@ -82,13 +82,11 @@ int main()
 				break;}
 				}
 				else{
-
 				printf("Process %d is processed for 1 second in queue 1\n",process[k].process_id);
 			    e--;
 				a++;
 				if(e!=process[k].burst_time&&e!=0)
 				{
-
 		for(z=0;z<limit-k-1;z++){
 		for(i=k+1;i<limit-z-1;i++)
 		{
